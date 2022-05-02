@@ -22,6 +22,8 @@ WebElement username = driver.findElement(By.id("username"));
 username.sendKeys("admin"+Keys.CONTROL+"A");
 username.sendKeys(Keys.CONTROL+"c");
 
+System.out.println("hello");
+
 
 
 WebElement password = driver.findElement(By.name("pwd"));
